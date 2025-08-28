@@ -13,12 +13,12 @@ Each device includes an **OLED display** to show real-time system status.
 ---
 
 ## 📂 Code Files
-- `devices1.ino` → Code for **Device 1 (Detection & Transmitter)**
+- `device1.ino` → Code for **Device 1 (Detection & Transmitter)**
 - `device2.ino` → Code for **Device 2 (Receiver & Warning Relay)**
 
 ---
 
-## ⚡ Features (from code)
+## ⚡ Features 
 - 🚘 Vehicle detection using **TF-Luna LiDAR (I2C)**
 - 📏 Configurable detection threshold (`DISTANCE_THRESHOLD`)
 - 🔔 Relay control for activating **warning lights/sirens** (`RELAY_ON_DURATION`)
